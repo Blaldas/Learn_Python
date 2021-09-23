@@ -15,7 +15,7 @@ nf = open("newFile", "w")  # open/create a file to write. The contents the file 
 nf.write("This is a new File")
 
 nf = open("newFile", "a")  # opens/ create a file to write. It does not delete the contents the file had before
-nf.write("\nAnew line even tho it was reopened")
+nf.write("\nA new line even tho it was reopened")
 
 
 nf = open("newFile")
